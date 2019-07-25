@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <RelativeLayout android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+            <ImageView android:layout_width="66dp"
+                       android:layout_height="66dp"
+                       android:src="@drawable/tony_stark_small"
+                       android:layout_gravity="center"
+                       android:id="@+id/profilePhoto"
+                       android:layout_marginRight="8dp"
+                       android:layout_marginBottom="8dp"/>
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Tony Stark"
+                      android:layout_gravity="center"
+                      android:textSize="23sp"
+                      android:textColor="#222222"
+                      android:textStyle="normal"
+                      android:id="@+id/textName"
+                      android:layout_toRightOf="@id/profilePhoto"/>
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="tonystark@gmail.com"
+                      android:layout_gravity="center"
+                      android:textSize="18sp"
+                      android:textColor="#555555"
+                      android:id="@+id/textEmail"
+                      android:layout_toRightOf="@id/profilePhoto"
+                      android:layout_below="@id/textName"/>
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="+91 9876543210"
+                      android:layout_gravity="center"
+                      android:textSize="18sp"
+                      android:textColor="#555555"
+                      android:layout_marginBottom="8dp"
+                      android:id="@+id/phoneNumberText"
+                      android:layout_toRightOf="@id/profilePhoto"
+                      android:layout_below="@id/textEmail"/>
+        </RelativeLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical">
+
+            <Button android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Education"
+                    android:id="@+id/Education"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginBottom="8dp"/>
+
+            <Button android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Work Experience"
+                    android:id="@+id/Work"
+                    android:textColor="#FFFFFF"/>
+        </LinearLayout>
+</LinearLayout>
