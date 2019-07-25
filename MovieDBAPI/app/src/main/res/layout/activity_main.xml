@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="6dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title:"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp" />
+
+    <TextView
+        android:id="@+id/released"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Released:"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"/>
+
+    <TextView
+        android:id="@+id/director"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Director:"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"/>
+
+    <TextView
+        android:id="@+id/actors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actors:"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imdbRating"
+        android:text="IMDB Rating:"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/language"
+        android:text="Language:"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/img"/>
+
+</LinearLayout>
