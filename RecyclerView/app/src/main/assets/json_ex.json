@@ -1,0 +1,35 @@
+{
+  "places": [{
+    "name": "Bangalore"
+  },
+    {
+      "name": "Hyderabad"
+    },
+    {
+      "name": "Cochin"
+    },
+    {
+      "name": "Hassana"
+    },
+    {
+      "name": "Chikmagaluru"
+    }
+  ],
+
+  "images": [{
+    "url": "https://tse2.mm.bing.net/th?id=OIP.ERcLGGwOqmM9HUN58AY7iwHaEn&pid=Api&P=0&w=257&h=161"
+  },
+    {
+      "url": "https://images.thrillophilia.com/image/upload/s--prRfLXa4--/c_fill,f_auto,fl_strip_profile,h_775,q_auto,w_1600/v1/images/photos/000/039/718/original/1526278603_Main.jpg.jpg?1526278603"
+    },
+    {
+      "url": "https://static.toiimg.com/photo/47027695/.jpg"
+    },
+    {
+      "url": "https://www.nativeplanet.com/img/2018/07/shri-bucesvara-temple-1530699651.jpg"
+    },
+    {
+      "url": "https://images.thrillophilia.com/image/upload/s--HB6oE-PE--/c_fill,f_auto,fl_strip_profile,h_600,q_auto,w_975/v1/images/photos/000/137/660/original/1542692758_shutterstock_783094726.jpg.jpg?1542692757"
+    }
+  ]
+}
